@@ -1,0 +1,29 @@
+.btn.btn-outline-success {
+  color: black;
+  border-color: #800000;
+  background-color: none;
+}
+
+.btn.btn-outline-success:hover {
+  background-color: #800000;
+  border-color: white;
+}
+
+#load-more {
+  color: white !important;
+  border-color: #800000;
+  background-color: #800000;
+}
+
+#load-more:hover {
+  color: black;
+  border-color: #800000;
+  background-color: #800000;
+}
+
+@media (max-width: 600px) {
+  #load-more {
+      width: 100%;
+      text-align: center;
+  }
+}

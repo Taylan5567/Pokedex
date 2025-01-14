@@ -1,0 +1,167 @@
+.pokemon-details {
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 30%;
+  height: 100%;
+  background-color: #f8f9fa;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  overflow-y: auto;
+  display: none;
+}
+
+.pokemon-details img {
+  max-width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.pokemon-details h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.pokemon-details p {
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+.details-evolutions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+  justify-content: center;
+}
+
+.evolution {
+  text-align: center;
+  width: 80px;
+}
+
+.evolution img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+.evolution span {
+  display: block;
+  margin-top: 5px;
+  font-size: 12px;
+}
+
+#details-evolutions {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.close-details-btn {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  background-color: transparent;
+  border: none;
+  font-size: 24px;
+  font-weight: bold;
+  color: #888;
+  cursor: pointer;
+}
+
+.close-details-btn:hover {
+  color: #000;
+}
+
+/* Responsive: Seitliches Panel auf kleineren Screens unten anzeigen */
+@media (max-width: 768px) {
+  .pokemon-details {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 30%;
+    height: 100%;
+    background-color: #f8f9fa;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    overflow-y: auto;
+    display: none;
+    z-index: 9999;
+  }
+  
+  .pokemon-details img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .pokemon-details h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .pokemon-details p {
+    font-size: 16px;
+    margin: 5px 0;
+  }
+  
+  .details-evolutions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+    justify-content: center;
+  }
+  
+  .evolution {
+    text-align: center;
+    width: 80px;
+  }
+  
+  .evolution img {
+    max-width: 100%;
+    border-radius: 5px;
+  }
+  
+  .evolution span {
+    display: block;
+    margin-top: 5px;
+    font-size: 12px;
+  }
+  
+  #details-evolutions {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .close-details-btn {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+    font-weight: bold;
+    color: #888;
+    cursor: pointer;
+  }
+  
+  .close-details-btn:hover {
+    color: #000;
+  }
+  
+  /* Responsive: Modal soll über die gesamte Seite gehen */
+  @media (max-width: 768px) {
+    .pokemon-details {
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: #f8f9fa;
+      box-shadow: none;
+      padding: 20px;
+      overflow-y: auto;
+    }
+  }
+}

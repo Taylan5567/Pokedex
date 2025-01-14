@@ -1,0 +1,220 @@
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.cards-container.mt-4 {
+    gap: 16px;
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center;
+    width: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease-in-out;
+    background-color: #fff;
+}
+
+.col-lg-3 {
+    flex: 0 0 11%;
+    max-width: 11%;
+    gap: 40px;
+}
+
+.text-center.mt-5.mb-3 {
+    color: white;
+}
+
+.col-6.col-md-4.col-lg-3.mb-4 {
+    display: flex;
+    justify-content: center;
+}
+
+.switch {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+
+@media (max-width: 1600px) {
+    .col-lg-3 {
+        flex: 0 0 22%;
+        max-width: 20%;
+        gap: 40px;
+    }
+
+    .cards-container.mt-4 {
+        gap: 30px;
+    }
+
+    .card {
+        width: 180px;
+        gap: 20px
+    }
+}
+
+@media (max-width: 790px) {
+    .col-lg-3 {
+        flex: 0 0 30%;
+        max-width: 30%;
+    }
+
+    .cards-container.mt-4 {
+        gap: 41px;
+    }
+
+    .card {
+        width: 180px;
+        gap: 20px
+    }
+}
+
+@media (max-width: 576px) {
+    .col-lg-3 {
+        flex: 0 0 45%;
+        max-width: 45%;
+    }
+
+    .card {
+        width: 150px;
+    }
+}
+
+@media (max-width: 360px) {
+    .col-lg-3 {
+        flex: 0 0 90%;
+        max-width: 90%;
+    }
+
+    .card {
+        width: 100%;
+    }
+}
+
+
+.card {
+    cursor: pointer;
+    color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  }
+  
+  .card.shadow-sm {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  .card.dark {
+    background-color: var(--dark-bg);
+    box-shadow: 0 4px 8px var(--dark-shadow);
+  }
+
+  .card.bug {
+    background-color: var(--bug-bg);
+    box-shadow: 0 4px 8px var(--bug-shadow);
+  }
+
+  .card.fire {
+    background-color: var(--fire-bg);
+    box-shadow: 0 4px 8px var(--fire-shadow);
+  }
+  
+  .card.water {
+    background-color: var(--water-bg);
+    box-shadow: 0 4px 8px var(--water-shadow);
+  }
+  
+  .card.grass {
+    background-color: var(--grass-bg);
+    box-shadow: 0 4px 8px var(--grass-shadow);
+  }
+  
+  .card.electric {
+    background-color: var(--electric-bg);
+    box-shadow: 0 4px 8px var(--electric-shadow);
+  }
+  
+  .card.psychic {
+    background-color: var(--psychic-bg);
+    box-shadow: 0 4px 8px var(--psychic-shadow);
+  }
+
+  .card.dragon {
+    background-color: var(--dragon-bg);
+    box-shadow: 0 4px 8px var(--dragon-shadow);
+  }
+
+  .card.fairy {
+    background-color: var(--fairy-bg);
+    box-shadow: 0 4px 8px var(--fairy-shadow);
+  }
+
+  .card.fighting {
+    background-color: var(--fighting-bg);
+    box-shadow: 0 4px 8px var(--fighting-shadow);
+  }
+
+  .card.flying {
+    background-color: var(--flying-bg);
+    box-shadow: 0 4px 8px var(--flying-shadow);
+  }
+
+  .card.ghost {
+    background-color: var(--ghost-bg);
+    box-shadow: 0 4px 8px var(--ghost-shadow);
+  }
+
+  .card.ground {
+    background-color: var(--ground-bg);
+    box-shadow: 0 4px 8px var(--ground-shadow);
+  }
+
+  .card.ice {
+    background-color: var(--ice-bg);
+    box-shadow: 0 4px 8px var(--ice-shadow);
+  }
+
+  .card.normal {
+    background-color: var(--normal-bg);
+    box-shadow: 0 4px 8px var(--normal-shadow);
+  }
+
+  .card.poison {
+    background-color: var(--poison-bg);
+    box-shadow: 0 4px 8px var(--poison-shadow);
+  }
+
+  .card.rock {
+    background-color: var(--rock-bg);
+    box-shadow: 0 4px 8px var(--rock-shadow);
+  }
+
+  .card.steel {
+    background-color: var(--steel-bg);
+    box-shadow: 0 4px 8px var(--steel-shadow);
+  }
+
+
+  
+  .card.default {
+    background-color: var(--default-bg);
+    box-shadow: 0 4px 8px var(--default-shadow);
+  }
+
+  .card-body img {
+    width: 50px;
+    border-radius: 10px;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .card-body img:hover {
+    transform: scale(1.2);
+  }

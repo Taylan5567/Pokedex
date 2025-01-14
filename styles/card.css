@@ -1,0 +1,57 @@
+    :root {
+        --bug-bg: #92BC2C;
+        --bug-shadow: rgba(146, 188, 44, 0.5);
+
+        --dark-bg: #595761;
+        --dark-shadow: rgba(89, 87, 97, 0.5);
+
+        --dragon-bg: #0C69C8;
+        --dragon-shadow: rgba(12, 105, 200, 0.5);
+
+        --electric-bg: #F2D94E;
+        --electric-shadow: rgba(242, 217, 78, 0.5);
+
+        --fire-bg: #FBA54C;
+        --fire-shadow: rgba(251, 165, 76, 0.5);
+
+        --fairy-bg: #EE90E6;
+        --fairy-shadow: rgba(238, 144, 230, 0.5);
+
+        --fighting-bg: #D3425F;
+        --fighting-shadow: rgba(211, 66, 95, 0.5);
+
+        --flying-bg: #A1BBEC;
+        --flying-shadow: rgba(161, 187, 236, 0.5);
+
+        --ghost-bg: #5F6DBC;
+        --ghost-shadow: rgba(95, 109, 188, 0.5);
+
+        --grass-bg: #5FBD58;
+        --grass-shadow: rgba(95, 189, 88, 0.5);
+
+        --ground-bg: #DA7C4D;
+        --ground-shadow: rgba(218, 124, 77, 0.5);
+
+        --ice-bg: #75D0C1;
+        --ice-shadow: rgba(117, 208, 193, 0.5);
+
+        --normal-bg: #A0A29F;
+        --normal-shadow: rgba(160, 162, 159, 0.5);
+
+        --poison-bg: #B763CF;
+        --poison-shadow: rgba(183, 99, 207, 0.5);
+
+        --psychic-bg: #FA8581;
+        --psychic-shadow: rgba(250, 133, 129, 0.5);
+
+        --rock-bg: #C9BB8A;
+        --rock-shadow: rgba(201, 187, 138, 0.5);
+
+        --steel-bg: #5695A3;
+        --steel-shadow: rgba(86, 149, 163, 0.5);
+
+        --water-bg: #539DDF;
+        --water-shadow: rgba(83, 157, 223, 0.5);
+    }
+
+   
